@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://s-nozue-site.netlify.app/"
 languageCode: "en-us"
 title: "S-Nozue Profile"
 theme: hugo-profile
@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "S-Nozue Profile"
-  description: Text about my cool site
+  description: S-Nozue's profile page
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 

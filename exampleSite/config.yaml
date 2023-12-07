@@ -24,16 +24,16 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     # Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -262,9 +262,9 @@ params:
       - title: Hagi bot
         content: 
         image: /images/erika.png
-        # featured:
-        #   name: Link
-        #   link: https://hugo-profile.netlify.app
+        featured:
+          name: Link
+          link: https://github.com/cl-tohoku/hagi-bot
         badges:
           - "Dialogue System"
           - "Multimodal"

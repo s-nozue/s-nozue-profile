@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "S-Nozue Profile"
 theme: hugo-profile
 
 outputs:
@@ -115,6 +115,7 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
+      disablePublications: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -160,7 +161,7 @@ params:
 
     interests:
       enable: true
-      title: "Here are Here are my research interests:"
+      title: "Here are my research interests:"
       items:
         - "Natural Language Processing"
         - "Machine Learning"

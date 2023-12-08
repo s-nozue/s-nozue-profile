@@ -14,7 +14,7 @@
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.interests.enable }}
-                {{ .Site.Params.about.interests.title }}
+                <br>{{ .Site.Params.about.interests.title }}
                 <ul>
                     {{ range .Site.Params.about.interests.items }}
                     <li>{{ . | markdownify }}</li>

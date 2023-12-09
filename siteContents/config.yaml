@@ -246,7 +246,7 @@ params:
         image: /images/achievment.jpg
       - title: Comming Soon
         content: 
-        url: "https://github.com/gurusabarish/hugo-profile"
+        # url: "https://github.com/gurusabarish/hugo-profile"
         image: /images/achievment.jpg
       - title: Comming Soon
         content: 

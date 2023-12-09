@@ -126,7 +126,7 @@ params:
     intro: "Hi, my name is"
     title: "Shinnosuke Nozue."
     subtitle: "Profile Page"
-    content: "I am a menber of Tohoku NLP Group (Matsubayashi Labo)."
+    content: "I am a menber of Tohoku NLP Group (Matsubayashi Lab.)."
     image: /images/hero_photo.JPG
     bottomImage:
       enable: true

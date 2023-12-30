@@ -228,6 +228,10 @@ params:
           name: "Utsunomiya High School."
           url: "https://www.tochigi-edu.ed.jp/utsunomiya/nc3/"
         date: "2017 - 2020"
+        content: |-
+          - Soccer club
+          - Photo club
+          - Student council
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"

@@ -182,7 +182,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "野末 慎之介, 石月由紀子 松林 優一郎, 坂口 慶祐"
+      - title: "野末 慎之介（東北大学）, 石月由紀子 松林 優一郎, 坂口 慶祐（東北大学・理化学研究所)"
         publication:
           name: "大規模言語モデルにおける日本語ゼロ照応解析能力の分析. 言語処理学会第30回年次大会, March 2024."
 

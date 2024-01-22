@@ -124,7 +124,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Shinnosuke Nozue (野末 慎之介)."
+    title: "Shinnosuke Nozue."
     subtitle: "Profile Page"
     content: "I am a menber of Tohoku NLP Group (Matsubayashi Lab.)."
     image: /images/hero_photo.JPG

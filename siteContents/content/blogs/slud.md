@@ -83,23 +83,3 @@ Tohoku NLP Groupではこのコンペに参加することは毎年若手教育�
 これらの経験は私にとって非常に貴重なものになりましたし、今後の研究や社会人生活においても活かせることが多いと感じています。
 
 今回のコンペに出したシステムはまだまだ改善の余地が残されているので、今後も改善を続けて、上のステージをめざしていきたいと思います。
-
-<!-- Emoji can be enabled in a Hugo project in a number of ways. :zap:
-
-## Emoji Support
-
-The [emojify](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
-
-To enable emoji globally, set ```enableEmoji``` to ```true``` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
-
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
-
-<hr>
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-```
-.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-``` -->

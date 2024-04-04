@@ -155,7 +155,7 @@ params:
     title: "About Me"
     image: "/images/about_photo.JPG"
     content: |-
-      Hello. I am a 4th year undergraduate student at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
+      Hello. I'm a 1st year graduate student at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
       I am studying natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Matsubayashi Lab.](https://www.edunlp.sed.tohoku.ac.jp/)).
 
     interests:

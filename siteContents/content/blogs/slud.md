@@ -8,8 +8,8 @@ tags:
   - 対話システム
   - 学会
   - チーム開発
-image: "siteContents/static/images/erica.png"
-description: ""
+image: "/siteContents/static/images/erica.png"
+description:
 toc: 
 ---
 

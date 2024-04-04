@@ -1,6 +1,6 @@
 ---
 title: "対話システムライブコンペティション6 参加報告"
-date: 2024-01-20T22:53:58+05:30
+date: 2024-04-04T22:53:58+05:30
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Shinnosuke Nozue"

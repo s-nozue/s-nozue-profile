@@ -293,9 +293,9 @@ params:
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
+        badges:
+          - "Python"
+          - "Machine Learning"
         links:
           - icon: fab fa-github
             url: https://github.com/s-nozue/nlp-100knock

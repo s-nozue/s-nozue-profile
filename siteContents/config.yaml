@@ -290,9 +290,9 @@ params:
       - title: 言語処理100本ノック
         # content: 
         image: /images/100knock_image.png
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
+        featured:
+          name: Link
+          link: https://github.com/s-nozue/nlp-100knock
         badges:
           - "Python"
           - "Machine Learning"

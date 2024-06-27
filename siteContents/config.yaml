@@ -287,18 +287,18 @@ params:
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Coming Soon
+      - title: 言語処理100本ノック
         # content: 
-        image: /images/projects/converter.jpg
+        image: /images/100knock_image.png
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
         # badges:
         #   - "Django"
         #   - "Bootstrap"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/converter
+        links:
+          - icon: fab fa-github
+            url: https://github.com/s-nozue/nlp-100knock
 
       - title: Comming Soon
         # content:

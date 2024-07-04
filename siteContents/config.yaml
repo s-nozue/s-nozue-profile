@@ -242,6 +242,21 @@ params:
         #   enable: true
         #   url: "https://example.com"
 
+  experience:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Zeals 3days internship: DEEP DIVE"
+        company:
+          name: "Zeals"
+          url: "https://zeals.co.jp/internship/2024/"
+        date: "2024/7/4 - 6"
+        # content: |-
+        #     - [Member of Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Matsubayashi Lab.](https://www.edunlp.sed.tohoku.ac.jp/)).
+        #     - Studying Natural Language Processing and Machine Learnig.
+        #       - Main topics: Zero Anaphora Resolution, Dialogue System
+
   # Achievements
   achievements:
     enable: true

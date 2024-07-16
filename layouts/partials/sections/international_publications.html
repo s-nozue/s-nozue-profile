@@ -25,14 +25,14 @@
                                 </div>
                                 <h5 class="card-title">{{ .title }}</h5>
                                 
-                                {{ if .publication.url }}
-                                <a href="{{ .publication.url }}" target="_blank">
+                                {{ if .inter_publication.url }}
+                                <a href="{{ .inter_publication.url }}" target="_blank">
                                     <h6>
-                                    {{ .publication.name }}
+                                    {{ .inter_publication.name }}
                                     </h6>
                                 </a>
                                 {{ else }}
-                                {{ .publication.name }}
+                                {{ .inter_publication.name }}
                                 {{ end }}
 
                                 <div class="py-1 inter_publications-content">

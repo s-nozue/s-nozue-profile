@@ -1,10 +1,10 @@
-{{ if .Site.Params.publications.enable | default false }}
-<section id="publications" class="py-5">
+{{ if .Site.Params.inter_publications.enable | default false }}
+<section id="inter_publications" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.publications.title | default "Domestic Conference" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference" }}</h3>
         <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.Params.publications.index }}
-            {{ range $index, $element := .Site.Params.publications.items }}
+            {{ $indexMenu := .Site.Params.inter_publications.index }}
+            {{ range $index, $element := .Site.Params.inter_publications.items }}
             <div class="col-12 p-0">
                 <div class="row row align-items-center justify-content-center m-1 mb-4">
                     {{ if $indexMenu }}
@@ -35,7 +35,7 @@
                                 {{ .publication.name }}
                                 {{ end }}
 
-                                <div class="py-1 publications-content">
+                                <div class="py-1 inter_publications-content">
                                     {{ .content | markdownify}}
                                 </div>
 

@@ -183,7 +183,7 @@ params:
     index: false
     items:
       - title: "Shinnosuke Nozue, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"
-        inter_publication:
+        publication:
           name: "A Multimodal Dialogue System to Lead Consensus Building with Emotion-Displaying. In Proceedings of 25th Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024), September 2024."
           url: ""
 

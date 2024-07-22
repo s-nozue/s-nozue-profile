@@ -295,7 +295,7 @@ params:
     items:
       - title: 共同研究
         # content:
-        image: /images/projects/kyodo.png
+        image: /images/kyodo.png
         featured:
           name: Link
           link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html

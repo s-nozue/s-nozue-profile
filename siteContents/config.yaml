@@ -293,6 +293,20 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: 共同研究
+        # content:
+        image: /images/projects/kyodo.png
+        featured:
+          name: Link
+          link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html
+        badges:
+          - "AI"
+          - "NLP"
+          - "Machine Learning"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
+
       - title: Hagi bot
         content: 
         image: /images/erica.png
@@ -324,19 +338,6 @@ params:
           - icon: fab fa-github
             url: https://github.com/s-nozue/nlp-100knock
 
-      - title: Comming Soon
-        # content:
-        image: /images/projects/profile2.jpg
-        # featured:
-        #   name: Demo V2
-        #   link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        # links:
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:

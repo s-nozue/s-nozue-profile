@@ -1,7 +1,7 @@
 {{ if .Site.Params.inter_publications.enable | default false }}
 <section id="inter_publications" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
         <div class="row justify-content-center py-5">
             {{ $indexMenu := .Site.Params.inter_publications.index }}
             {{ range $index, $element := .Site.Params.inter_publications.items }}

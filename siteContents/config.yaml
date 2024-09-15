@@ -264,7 +264,7 @@ params:
         date: "2024/9/17 - 30"
         content: |-
             - 自然言語処理に関する研究開発
-    items:
+
       - title: "Engineer Camp フューチャー株式会社"
         company:
           name: "フューチャー株式会社"
@@ -272,7 +272,7 @@ params:
         date: "2024/8/19 - 9/13"
         content: |-
             - 自然言語処理に関する研究開発
-    items:
+
       - title: "SEのタマゴ養成講座 NSSOL"
         company:
           name: "日鉄ソリューションズ株式会社"
@@ -280,7 +280,7 @@ params:
         date: "2024/8/5 - 9"
         content: |-
             - SE職の体験
-    items:
+
       - title: "Zeals 3days internship: DEEP DIVE"
         company:
           name: "Zeals"

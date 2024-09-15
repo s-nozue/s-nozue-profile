@@ -273,6 +273,14 @@ params:
         content: |-
             - 自然言語処理に関する研究開発
     items:
+      - title: "NSSOL SEのタマゴ養成講座"
+        company:
+          name: "日鉄ソリューションズ株式会社"
+          url: "https://www.nssol.nipponsteel.com/is/"
+        date: "2024/8/5 - 9"
+        content: |-
+            - SE職の体験
+    items:
       - title: "Zeals 3days internship: DEEP DIVE"
         company:
           name: "Zeals"

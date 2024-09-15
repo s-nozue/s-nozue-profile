@@ -257,6 +257,22 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "株式会社日本総合研究所 【2weeks】金融×先端技術コース"
+        company:
+          name: "株式会社日本総合研究所"
+          url: "https://jri-career.com/internship/ai.html"
+        date: "2024/9/17 - 30"
+        content: |-
+            - 自然言語処理に関する研究開発
+    items:
+      - title: "フューチャー株式会社 Engineer Camp"
+        company:
+          name: "フューチャー株式会社"
+          url: "https://note.com/future_event/n/nf586b6248ef9"
+        date: "2024/8/19 - 9/13"
+        content: |-
+            - 自然言語処理に関する研究開発
+    items:
       - title: "Zeals 3days internship: DEEP DIVE"
         company:
           name: "Zeals"

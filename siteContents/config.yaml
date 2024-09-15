@@ -257,7 +257,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "【2weeks】金融×先端技術コース 株式会社日本総合研究所"
+      - title: "【2weeks】金融×先端技術コース"
         company:
           name: "株式会社日本総合研究所"
           url: "https://jri-career.com/internship/ai.html"
@@ -265,7 +265,7 @@ params:
         content: |-
             - 自然言語処理に関する研究開発
 
-      - title: "Engineer Camp フューチャー株式会社"
+      - title: "Engineer Camp"
         company:
           name: "フューチャー株式会社"
           url: "https://note.com/future_event/n/nf586b6248ef9"
@@ -273,7 +273,7 @@ params:
         content: |-
             - 自然言語処理に関する研究開発
 
-      - title: "SEのタマゴ養成講座 NSSOL"
+      - title: "SEのタマゴ養成講座"
         company:
           name: "日鉄ソリューションズ株式会社"
           url: "https://www.nssol.nipponsteel.com/is/"

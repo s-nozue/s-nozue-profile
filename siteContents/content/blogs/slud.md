@@ -9,8 +9,8 @@ tags:
   - 学会
   - チーム開発
 image: "/images/erica.png"
-description:
-toc: 
+# description:
+# toc: 
 ---
 
 ### はじめに

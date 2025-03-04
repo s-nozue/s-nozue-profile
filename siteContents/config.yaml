@@ -257,6 +257,14 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "ITソリューションコース"
+        company:
+          name: "株式会社野村総合研究所"
+          url: "https://working.nri.co.jp/recruit/"
+        date: "2024/12/16 - 20"
+        content: |-
+            - コンサルティング業務
+
       - title: "【2weeks】金融×先端技術コース"
         company:
           name: "株式会社日本総合研究所"

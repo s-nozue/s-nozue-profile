@@ -7,6 +7,54 @@
                 <div class="card">
                     <div class="card-body">
                         <ul class="list-unstyled">
+                            <!-- 各 publication をリスト形式で表示 -->
+                            {{ range $index, $element := .Site.Params.publications.items }}
+                            <!-- ホバー効果と視認性を高めるクラスを追加 -->
+                            <li class="mb-4 p-3 rounded hover-bg">
+                                <!-- 発表者の名前などを太字で表示 -->
+                                <h6 class="fw-bold">{{ $element.title }}</h6>
+                                <!-- 発表名をリンクとして表示（リンクがある場合） -->
+                                {{ if $element.publication.url }}
+                                <a href="{{ $element.publication.url }}" target="_blank">
+                                    {{ $element.publication.name }}
+                                </a>
+                                {{ else }}
+                                <span>{{ $element.publication.name }}</span>
+                                {{ end }}
+                                <!-- 補足情報があれば表示（markdown 変換） -->
+                                {{ if $element.content }}
+                                <div class="mt-1">
+                                    {{ $element.content | markdownify }}
+                                </div>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+
+/* ホバー時に背景色が変わる効果を追加 */
+.hover-bg:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+</style>
+{{ end }}
+
+<!-- {{ if .Site.Params.publications.enable | default false }}
+<section id="publications" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.publications.title | default "Domestic Conference" }}</h3>
+        <div class="row justify-content-center py-5">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
                             {{ range $index, $element := .Site.Params.publications.items }}
                             <li class="mb-4">
                                 <h6 class="fw-bold">{{ $element.title }}</h6>
@@ -31,7 +79,7 @@
         </div>
     </div>
 </section>
-{{ end }}
+{{ end }} -->
 
 <!-- {{ if .Site.Params.publications.enable | default false }}
 <section id="publications" class="py-5">

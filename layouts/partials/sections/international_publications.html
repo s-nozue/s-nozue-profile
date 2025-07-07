@@ -1,4 +1,55 @@
+<style>
+/* 日本語に適した可読性の高いフォントに変更 */
+body {
+    font-family: "Yu Gothic", "游ゴシック体", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #212529;
+}
+
+/* リスト項目のホバー背景色 */
+.hover-bg:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+</style>
+
 {{ if .Site.Params.inter_publications.enable | default false }}
+<section id="inter_publications" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
+        <div class="row justify-content-center py-5">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            {{ range $index, $element := .Site.Params.inter_publications.items }}
+                            <li class="mb-4 p-3 rounded hover-bg">
+                                <h6 class="fw-bold">{{ $element.title }}</h6>
+                                {{ if $element.inter_publication.url }}
+                                <a href="{{ $element.inter_publication.url }}" target="_blank">
+                                    {{ $element.inter_publication.name }}
+                                </a>
+                                {{ else }}
+                                <span>{{ $element.inter_publication.name }}</span>
+                                {{ end }}
+                                {{ if $element.content }}
+                                <div class="mt-1">
+                                    {{ $element.content | markdownify }}
+                                </div>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- {{ if .Site.Params.inter_publications.enable | default false }}
 <section id="inter_publications" class="py-5">
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
@@ -55,4 +106,4 @@
         </div>
     </div>
 </section>
-{{ end }}
+{{ end }} -->

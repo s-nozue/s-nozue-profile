@@ -3,6 +3,41 @@
     <div class="container">
         <h3 class="text-center">{{ .Site.Params.publications.title | default "Domestic Conference" }}</h3>
         <div class="row justify-content-center py-5">
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            {{ range $index, $element := .Site.Params.publications.items }}
+                            <li class="mb-4">
+                                <h6 class="fw-bold">{{ $element.title }}</h6>
+                                {{ if $element.publication.url }}
+                                <a href="{{ $element.publication.url }}" target="_blank">
+                                    {{ $element.publication.name }}
+                                </a>
+                                {{ else }}
+                                <span>{{ $element.publication.name }}</span>
+                                {{ end }}
+                                {{ if $element.content }}
+                                <div class="mt-1">
+                                    {{ $element.content | markdownify }}
+                                </div>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- {{ if .Site.Params.publications.enable | default false }}
+<section id="publications" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.publications.title | default "Domestic Conference" }}</h3>
+        <div class="row justify-content-center py-5">
             {{ $indexMenu := .Site.Params.publications.index }}
             {{ range $index, $element := .Site.Params.publications.items }}
             <div class="col-12 p-0">
@@ -55,4 +90,4 @@
         </div>
     </div>
 </section>
-{{ end }}
+{{ end }} -->

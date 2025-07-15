@@ -318,12 +318,18 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: 第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6 最優秀賞 \ Our Team Won First Prize at the 6th Dialogue System Live Competition
+      - title: |
+          第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6 最優秀賞
+          Our Team Won First Prize at the 6th Dialogue System Live Competition
         content: 
         url: https://www.sed.tohoku.ac.jp/overview/information/detail---id-1823.html
         image: /images/erica.png
-      - title: 第264回自然言語処理研究発表会 若手奨励賞 \ Awarded the Young Researcher Encouragement Prize at the 264th NLP Research Meeting
-        content: "タイトル：日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響 \\ Title: How Zero Anaphora Resolution by Large Language Models Affects Japanese-English Translation"
+      - title: |
+          第264回自然言語処理研究発表会 若手奨励賞
+          Young Researcher Encouragement Award at the 264th NLP Research Meeting
+        content: |
+          タイトル：日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響 
+          Title: How Zero Anaphora Resolution by Large Language Models Affects Japanese-English Translation
         url: https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young#h.pbq70p6poo1w
         image: /images/NLken_nozue.jpg
       - title: Comming Soon

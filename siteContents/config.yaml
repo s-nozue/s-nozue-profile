@@ -272,6 +272,14 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Research Assistant"
+        company:
+          name: "東北大学言語AI研究センター"
+          url: "https://langai.tohoku.ac.jp/"
+        date: "2024/6 - Present"
+        content: |-
+            - 高度なAIエージェントの研究開発
+
       - title: "ITソリューションコース"
         company:
           name: "株式会社野村総合研究所"
@@ -347,7 +355,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: 共同研究
+      - title: 共同研究 \ Collaborative Research
         # content:
         image: /images/kyodo.png
         featured:

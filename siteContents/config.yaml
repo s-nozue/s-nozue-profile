@@ -323,7 +323,7 @@ params:
         url: https://www.sed.tohoku.ac.jp/overview/information/detail---id-1823.html
         image: /images/erica.png
       - title: 第264回自然言語処理研究発表会 若手奨励賞 \ I was honored to receive the Young Researcher Encouragement Award at the 264th NLP Research Meeting.
-        content: "タイトル：日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響\nTitle: How Zero Anaphora Resolution by Large Language Models Affects Japanese-English Translation"
+        content: "タイトル：日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響 \\ Title: How Zero Anaphora Resolution by Large Language Models Affects Japanese-English Translation"
         url: https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young#h.pbq70p6poo1w
         image: /images/NLken_nozue.jpg
       - title: Comming Soon

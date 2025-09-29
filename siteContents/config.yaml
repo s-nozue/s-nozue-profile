@@ -182,9 +182,13 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Shinnosuke Nozue, Yuto Nakano, Yotaro Watanabe, Meguru Takasaki, Shoji Moriya, Reina Akama and Jun Suzuki."
+        inter_publication:
+          name: "Enhancing Persuasive Dialogue Agents by Synthesizing Cross‑Disciplinary Communication Strategies. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP2025): Industry Track, pages ??–??, November 2025."
+          url: "https://2025.emnlp.org/program/"
       - title: "Shinnosuke Nozue, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"
         inter_publication:
-          name: "A Multimodal Dialogue System to Lead Consensus Building with Emotion-Displaying. In Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024), pp. 669-673 September 2024."
+          name: "A Multimodal Dialogue System to Lead Consensus Building with Emotion-Displaying. In Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024), pp. 669-673, September 2024."
           url: "https://aclanthology.org/2024.sigdial-1.57/"
 
   publications:
@@ -274,7 +278,6 @@ params:
     items:
       - title: "Research Assistant"
         company:
-          name: "東北大学言語AI研究センター"
           url: "https://langai.tohoku.ac.jp/"
         date: "2024/6 - Present"
         content: |-

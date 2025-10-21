@@ -333,12 +333,6 @@ params:
     # title: "Custom Name"
     items:
       - title: |
-          第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6 最優秀賞<br>
-          Our Team Won First Prize at the 6th Dialogue System Live Competition
-        content: 
-        url: https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C
-        image: /images/erica.png
-      - title: |
           第264回自然言語処理研究発表会 若手奨励賞<br>
           Young Researcher Encouragement Award at the 264th NLP Research Meeting
         content: |
@@ -346,6 +340,12 @@ params:
           Title: The Effect of Zero Anaphora Resolution Performance of the Large Language Model on Japanese-to-English Translation
         url: https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young#h.pbq70p6poo1w
         image: /images/NLken_nozue.jpg
+      - title: |
+          第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6 最優秀賞<br>
+          Our Team Won First Prize at the 6th Dialogue System Live Competition
+        content: 
+        url: https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C
+        image: /images/erica.png
       - title: Comming Soon
         content: 
         # url: "https://github.com/gurusabarish/hugo-profile"

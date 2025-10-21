@@ -280,6 +280,7 @@ params:
     items:
       - title: "Research Assistant"
         company:
+          name: 言語AI研究センター
           url: "https://langai.tohoku.ac.jp/"
         date: "2024/6 - Present"
         content: |-

@@ -286,14 +286,6 @@ params:
         content: |-
             - 高度なAIエージェントの研究開発
 
-      - title: "ITソリューションコース"
-        company:
-          name: "株式会社野村総合研究所"
-          url: "https://working.nri.co.jp/recruit/"
-        date: "2024/12/16 - 20"
-        content: |-
-            - コンサルティング業務
-
       - title: "【2weeks】金融×先端技術コース"
         company:
           name: "株式会社日本総合研究所"
@@ -309,23 +301,6 @@ params:
         date: "2024/8/19 - 9/13"
         content: |-
             - 自然言語処理に関する研究開発
-
-      - title: "SEのタマゴ養成講座"
-        company:
-          name: "日鉄ソリューションズ株式会社"
-          url: "https://www.nssol.nipponsteel.com/is/"
-        date: "2024/8/5 - 9"
-        content: |-
-            - SE職の体験
-
-      - title: "Zeals 3days internship: DEEP DIVE"
-        company:
-          name: "Zeals"
-          url: "https://zeals.co.jp/internship/2024/"
-        date: "2024/7/4 - 6"
-        content: |-
-            - 生成AIを使用したソリューション提案
-            - 最優秀賞
 
   # Achievements
   achievements:

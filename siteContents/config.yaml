@@ -201,17 +201,17 @@ params:
       - title: "野末 慎之介, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
         publication:
           name: "日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響. 第264回 自然言語処理研究発表会, July 2025."
-          url: "https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E7%A0%94%E7%A9%B6%E7%99%BA%E8%A1%A8%E4%BC%9A/NL264"
+          url: "https://ipsj.ixsq.nii.ac.jp/records/2002814"
 
       - title: "中野 雄斗, 野末 慎之介, 渡邉 陽太郎, 髙﨑 環, 赤間 怜奈, 鈴木 潤"
         publication:
           name: "説得エージェントの拡張戦略設計と意図変化を用いた自動評価手法の提案. 2025年度 人工知能学会全国大会（第39回）, May 2025."
-          url: "https://confit.atlas.jp/guide/event/jsai2025/subject/2Win5-42/advanced"      
+          url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2Win542/_article/-char/ja"      
 
       - title: "吉田 倖, 野末 慎之介, 阿部 香央莉, 赤間 怜奈, 鈴木 潤"
         publication:
           name: "旅費制約を考慮したマルチエージェントによる旅行計画生成システムの有効性検証. 2025年度 人工知能学会全国大会（第39回）, May 2025."
-          url: "https://confit.atlas.jp/guide/event/jsai2025/subject/4G3-GS-6-01/advanced"
+          url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_4G3GS601/_pdf/-char/ja"
 
       - title: "野末 慎之介, 石月由紀子, 松林 優一郎, 坂口 慶祐"
         publication:
@@ -221,7 +221,7 @@ params:
       - title: "中野雄斗*, 野末 慎之介*, 穀田 一真, 有山 知希, 佐藤 魁, 曾根 周作, 亀井 遼平, 謝 素春, 成田 風香, 守屋 彰二, 赤間 怜奈, 松林 優一郎, 坂口 慶祐"
         publication:
           name: "Hagi bot: LLMを用いた対話状態追跡と人間らしい振る舞いで自然な議論を行うマルチモーダル対話システム. 第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023), 2023."
-          url: "https://github.com/cl-tohoku/hagi-bot"
+          url: "https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_102/_article/-char/ja/"
         content: |-
           \* 第一著者と第二著者の貢献度は等しい
 

@@ -200,22 +200,29 @@ params:
     items:
       - title: "野末 慎之介, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
         publication:
+          name: "項の復元は必要か？日英機械翻訳における省略された項の扱いの分析. 言語処理学会第32回年次大会 (NLP2026), pp.-, March 2026."
+          url: "https://www.anlp.jp/proceedings/annual_meeting/2026/#C9-20:~:text=C9%2D20,%E6%89%B1%E3%81%84%E3%81%AE%E5%88%86%E6%9E%90"
+
+      - title: "野末 慎之介, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
+        publication:
           name: "日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響. 第264回 自然言語処理研究発表会, July 2025."
           url: "https://ipsj.ixsq.nii.ac.jp/records/2002814"
+        content: |-
+          若手奨励賞
 
       - title: "中野 雄斗, 野末 慎之介, 渡邉 陽太郎, 髙﨑 環, 赤間 怜奈, 鈴木 潤"
         publication:
-          name: "説得エージェントの拡張戦略設計と意図変化を用いた自動評価手法の提案. 2025年度 人工知能学会全国大会（第39回）, May 2025."
+          name: "説得エージェントの拡張戦略設計と意図変化を用いた自動評価手法の提案. 2025年度 人工知能学会全国大会 (第39回), May 2025."
           url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2Win542/_article/-char/ja"      
 
       - title: "吉田 倖, 野末 慎之介, 阿部 香央莉, 赤間 怜奈, 鈴木 潤"
         publication:
-          name: "旅費制約を考慮したマルチエージェントによる旅行計画生成システムの有効性検証. 2025年度 人工知能学会全国大会（第39回）, May 2025."
+          name: "旅費制約を考慮したマルチエージェントによる旅行計画生成システムの有効性検証. 2025年度 人工知能学会全国大会 (第39回), May 2025."
           url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_4G3GS601/_pdf/-char/ja"
 
       - title: "野末 慎之介, 石月由紀子, 松林 優一郎, 坂口 慶祐"
         publication:
-          name: "大規模言語モデルにおける日本語ゼロ照応解析能力の分析. 言語処理学会第30回年次大会, pp.297-302, March 2024."
+          name: "大規模言語モデルにおける日本語ゼロ照応解析能力の分析. 言語処理学会第30回年次大会 (NLP2024), pp.297-302, March 2024."
           url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A2-2.pdf"
           
       - title: "中野雄斗*, 野末 慎之介*, 穀田 一真, 有山 知希, 佐藤 魁, 曾根 周作, 亀井 遼平, 謝 素春, 成田 風香, 守屋 彰二, 赤間 怜奈, 松林 優一郎, 坂口 慶祐"

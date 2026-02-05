@@ -231,6 +231,7 @@ params:
           url: "https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_102/_article/-char/ja/"
         content: |-
           \* 第一著者と第二著者の貢献度は等しい
+          対話システムライブコンペティション6最優秀賞 (11システム中1位)
 
   # Educationのformatをpublicationsにする
   education:

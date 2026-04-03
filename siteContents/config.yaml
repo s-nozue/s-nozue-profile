@@ -155,8 +155,9 @@ params:
     title: "About Me"
     image: "/images/about_photo.JPG"
     content: |-
-      Hello. I'm a 2nd-year master's student at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
-      I am studying natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Matsubayashi Lab.](https://www.edunlp.sed.tohoku.ac.jp/)).
+      Hello. I'm an academic researcher at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
+      I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Failab.](https://www.fai.cds.tohoku.ac.jp/)).
+      Currently, my research focuses on dialogue systems and the analysis of Japanese language capabilities in large language models.
 
     interests:
       enable: true
@@ -174,7 +175,7 @@ params:
       items:
         - "Soccer"
         - "Mahjong"
-        - "Taking photos"
+        - "Golf"
 
   # 独自のもの
   inter_publications:
@@ -243,7 +244,7 @@ params:
         school:
           name: "Tohoku University"
           url: "https://www.tohoku.ac.jp/japanese/"
-        date: "2024 - Now"
+        date: "Apr. 2024 - Mar. 2026"
         content: |-
             - [Member of Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Matsubayashi Lab.](https://www.edunlp.sed.tohoku.ac.jp/)).
             - Studying Natural Language Processing and Machine Learnig.
@@ -316,6 +317,12 @@ params:
     # title: "Custom Name"
     items:
       - title: |
+          東北大学大学院教育学研究科長賞<br>
+          Tohoku University Graduate School of Education Dean’s Award
+        content:
+        url: "https://www.sed.tohoku.ac.jp/overview/information/detail---id-3213.html"
+        image: /images/dean_award.jpg
+      - title: |
           第264回自然言語処理研究発表会 若手奨励賞<br>
           Young Researcher Encouragement Award at the 264th NLP Research Meeting
         content: |
@@ -329,10 +336,6 @@ params:
         content: 
         url: https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C
         image: /images/erica.png
-      - title: Comming Soon
-        content: 
-        # url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
       - title: Comming Soon
         content: 
       - title: Comming Soon

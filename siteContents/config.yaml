@@ -196,8 +196,8 @@ params:
     items:
       - title: "<u>野末 慎之介</u>, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
         publication:
-          name: "項の復元は必要か？日英機械翻訳における省略された項の扱いの分析. 言語処理学会第32回年次大会 (NLP2026), pp.-, March 2026."
-          url: "https://www.anlp.jp/proceedings/annual_meeting/2026/#C9-20:~:text=C9%2D20,%E6%89%B1%E3%81%84%E3%81%AE%E5%88%86%E6%9E%90"
+          name: "項の復元は必要か？日英機械翻訳における省略された項の扱いの分析. 言語処理学会第32回年次大会 (NLP2026), pp.4198-4203, March 2026."
+          url: "https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/C9-20.pdf"
           # buttonName: "Paper"
 
       - title: "<u>野末 慎之介</u>, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"

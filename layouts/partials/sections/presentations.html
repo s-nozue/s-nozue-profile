@@ -1,0 +1,23 @@
+{{ if .Site.Params.presentations.enable | default false }}
+<section id="presentations" class="profile-section">
+    <div class="container profile-container">
+        <h2 class="profile-section-title">{{ .Site.Params.presentations.title | default "Talks" }}</h2>
+        <ul class="profile-list">
+            {{ range .Site.Params.presentations.items }}
+            <li class="profile-item">
+                <h3 class="profile-item-title">{{ .title | safeHTML }}</h3>
+                {{ if .presentation.name }}
+                <p class="profile-item-org">{{ .presentation.name }}</p>
+                {{ end }}
+                {{ if .content }}
+                <div class="profile-item-content">{{ .content | markdownify }}</div>
+                {{ end }}
+                {{ if .presentation.url }}
+                <p class="profile-item-extra"><a class="profile-link-button" href="{{ .presentation.url }}" target="_blank">{{ .presentation.buttonName | default $.Site.Params.presentations.buttonName | default "Talk Link" }}</a></p>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}

@@ -94,20 +94,29 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.inter_publications.enable | default false) (not (.Site.Params.navbar.menus.disableinter_Publications | default false)) }}
+                    {{ if and (or (.Site.Params.inter_publications.enable | default false) (.Site.Params.publications.enable | default false)) (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#inter_publications"
-                            aria-label="inter_publications">
-                            {{ .Site.Params.inter_publications.title | default "International Conference" }}
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#publications"
+                            aria-label="publications">
+                            {{ .Site.Params.publicationsOverview.title | default "Publications" }}
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.publications.enable | default false) (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
+                    {{ if and (.Site.Params.presentations.enable | default false) (not (.Site.Params.navbar.menus.disablePresentations | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#publications"
-                            aria-label="publications">
-                            {{ .Site.Params.publications.title | default "Domestic Conference" }}
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#presentations"
+                            aria-label="presentations">
+                            {{ .Site.Params.presentations.title | default "Talks" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
+                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
+                            aria-label="achievements">
+                            {{ .Site.Params.achievements.title | default "Awards" }}
                         </a>
                     </li>
                     {{ end }}
@@ -135,15 +144,6 @@
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"
                             aria-label="projects">
                             {{ .Site.Params.projects.title | default "Projects" }}
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
-                            aria-label="achievements">
-                            {{ .Site.Params.achievements.title | default "Achievements" }}
                         </a>
                     </li>
                     {{ end }}

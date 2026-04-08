@@ -1,0 +1,9 @@
+{{ if or (.Site.Params.inter_publications.enable | default false) (.Site.Params.publications.enable | default false) }}
+<section id="publications" class="profile-section">
+    <div class="container profile-container">
+        <h2 class="profile-section-title">{{ .Site.Params.publicationsOverview.title | default "Publications" }}</h2>
+        {{- partial "sections/international_publications.html" . -}}
+        {{- partial "sections/publications.html" . -}}
+    </div>
+</section>
+{{ end }}

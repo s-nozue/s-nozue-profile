@@ -1,108 +1,19 @@
-<style>
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.75;
-    color: #212529;
-}
-
-/* リスト項目のホバー背景色 */
-.hover-bg:hover {
-    background-color: #f8f9fa;
-    transition: background-color 0.3s ease;
-}
-</style>
-
 {{ if .Site.Params.inter_publications.enable | default false }}
-<section id="inter_publications" class="py-5">
-    <div class="container">
-        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
-        <div class="row justify-content-center py-5">
-            <div class="col-md-9">
-                <div class="card">
-                    <div class="card-body">
-                        <ul class="list-unstyled">
-                            {{ range $index, $element := .Site.Params.inter_publications.items }}
-                            <li class="mb-4 p-3 rounded hover-bg">
-                                <h6 class="fw-bold">{{ $element.title }}</h6>
-                                {{ if $element.inter_publication.url }}
-                                <a href="{{ $element.inter_publication.url }}" target="_blank">
-                                    {{ $element.inter_publication.name }}
-                                </a>
-                                {{ else }}
-                                <span>{{ $element.inter_publication.name }}</span>
-                                {{ end }}
-                                {{ if $element.content }}
-                                <div class="mt-1">
-                                    {{ $element.content | markdownify }}
-                                </div>
-                                {{ end }}
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section id="inter_publications" class="profile-subsection">
+        <h3 class="profile-subsection-title">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
+        <ul class="profile-list">
+            {{ range .Site.Params.inter_publications.items }}
+            <li class="profile-item">
+                <h3 class="profile-item-title">{{ .title | safeHTML }}</h3>
+                <p class="profile-item-org">{{ .inter_publication.name }}</p>
+                {{ if .content }}
+                <div class="profile-item-content">{{ .content | markdownify }}</div>
+                {{ end }}
+                {{ if .inter_publication.url }}
+                <p class="profile-item-extra"><a class="profile-link-button" href="{{ .inter_publication.url }}" target="_blank">{{ .inter_publication.buttonName | default $.Site.Params.inter_publications.buttonName | default "Paper Link" }}</a></p>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
 </section>
 {{ end }}
-
-<!-- {{ if .Site.Params.inter_publications.enable | default false }}
-<section id="inter_publications" class="py-5">
-    <div class="container">
-        <h3 class="text-center">{{ .Site.Params.inter_publications.title | default "International Conference (Refereed)" }}</h3>
-        <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.Params.inter_publications.index }}
-            {{ range $index, $element := .Site.Params.inter_publications.items }}
-            <div class="col-12 p-0">
-                <div class="row row align-items-center justify-content-center m-1 mb-4">
-                    {{ if $indexMenu }}
-                    <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
-                        <div class="py-2">
-                            <span class="index shadow-lg">
-                                {{ add $index 1 }}
-                            </span>
-                        </div>
-                    </div>
-                    {{ end }}
-
-                    <div class="col-md-9">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="float-end">
-                                    <small>{{ .date }}</small>
-                                </div>
-                                <h5 class="card-title">{{ .title }}</h5>
-                                
-                                {{ if .inter_publication.url }}
-                                <a href="{{ .inter_publication.url }}" target="_blank">
-                                    <h6>
-                                    {{ .inter_publication.name }}
-                                    </h6>
-                                </a>
-                                {{ else }}
-                                {{ .inter_publication.name }}
-                                {{ end }}
-
-                                <div class="py-1 inter_publications-content">
-                                    {{ .content | markdownify}}
-                                </div>
-
-                                {{ if .featuredLink.enable }}
-                                <div class="py-1">
-                                    <a href="{{ .featuredLink.url }}" class="btn">
-                                        {{ .featuredLink.name | default "Featured" }}
-                                    </a>
-                                </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</section>
-{{ end }} -->

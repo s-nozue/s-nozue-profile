@@ -23,17 +23,7 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+  main: []
     # Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -56,7 +46,7 @@ params:
   title: "S-Nozue Profile"
   description: S-Nozue's profile page
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/fav.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -72,7 +62,7 @@ params:
   mathjax: false
 
   # Whether the fade animations on the home page will be enabled
-  animate: true
+  animate: false
 
   theme:
     # disableThemeToggle: true
@@ -86,25 +76,25 @@ params:
 
   # color preference
   color:
-    textColor: "#F5F5F5"
-    secondaryTextColor: "#F5F5F5"
-    backgroundColor: "#313552"
-    primaryColor: "#F1E0AC"
-    secondaryColor: "#30475E"
+    textColor: "#1F2933"
+    secondaryTextColor: "#52606D"
+    backgroundColor: "#F4F7FB"
+    primaryColor: "#0F766E"
+    secondaryColor: "#FFFFFF"
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor: "#F5F7FA"
+      secondaryTextColor: "#D5DEE7"
+      backgroundColor: "#17212B"
+      secondaryBackgroundColor: "#22303D"
+      primaryColor: "#7AD7CB"
+      secondaryColor: "#22303D"
 
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "S-Nozue Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
@@ -115,6 +105,7 @@ params:
       disableAbout: false
       disableExperience: false
       disablePublications: false
+      disablePresentations: false
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -126,7 +117,7 @@ params:
     intro: "Hi, my name is"
     title: "Shinnosuke Nozue."
     subtitle: "Profile Page"
-    content: "I am a menber of Tohoku NLP Group (Matsubayashi Lab.)."
+    content: "I am a menber of Tohoku NLP Group (Failab.)."
     image: /images/hero_photo.JPG
     bottomImage:
       enable: true
@@ -170,7 +161,7 @@ params:
         - "Japanese"
 
     hobbies:
-      enable: true
+      enable: false
       title: "My hobbies:"
       items:
         - "Soccer"
@@ -181,58 +172,88 @@ params:
   inter_publications:
     enable: true
     # title: "Custom Name"
+    buttonName: "Paper"
     index: false
     items:
-      - title: "Shinnosuke Nozue*, Yuto Nakano*, Yotaro Watanabe, Meguru Takasaki, Shoji Moriya, Reina Akama and Jun Suzuki."
+      - title: "<u>Shinnosuke Nozue</u>*, Yuto Nakano*, Yotaro Watanabe, Meguru Takasaki, Shoji Moriya, Reina Akama and Jun Suzuki."
         inter_publication:
           name: "Enhancing Persuasive Dialogue Agents by Synthesizing Cross‑Disciplinary Communication Strategies. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP2025): Industry Track, pages 2287-2312, November 2025."
           url: "https://aclanthology.org/2025.emnlp-industry.158/"
+          # buttonName: "Paper"
         content: |-
           \* Equal Contribution
-      - title: "Shinnosuke Nozue, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"
+      - title: "<u>Shinnosuke Nozue</u>, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"
         inter_publication:
           name: "A Multimodal Dialogue System to Lead Consensus Building with Emotion-Displaying. In Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2024), pp. 669-673, September 2024."
           url: "https://aclanthology.org/2024.sigdial-1.57/"
+          # buttonName: "Paper"
 
   publications:
     enable: true
     # title: "Custom Name"
+    buttonName: "Paper"
     index: false
     items:
-      - title: "野末 慎之介, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
+      - title: "<u>野末 慎之介</u>, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
         publication:
           name: "項の復元は必要か？日英機械翻訳における省略された項の扱いの分析. 言語処理学会第32回年次大会 (NLP2026), pp.-, March 2026."
           url: "https://www.anlp.jp/proceedings/annual_meeting/2026/#C9-20:~:text=C9%2D20,%E6%89%B1%E3%81%84%E3%81%AE%E5%88%86%E6%9E%90"
+          # buttonName: "Paper"
 
-      - title: "野末 慎之介, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
+      - title: "<u>野末 慎之介</u>, 松林 優一郎, 藤井 諒, 岸波 洋介, 森下 睦, 坂口 慶祐"
         publication:
           name: "日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響. 第264回 自然言語処理研究発表会, July 2025."
           url: "https://ipsj.ixsq.nii.ac.jp/records/2002814"
+          # buttonName: "Paper"
         content: |-
           - 若手奨励賞 (3/11=27.3%)
 
-      - title: "中野 雄斗, 野末 慎之介, 渡邉 陽太郎, 髙﨑 環, 赤間 怜奈, 鈴木 潤"
+      - title: "中野 雄斗, <u>野末 慎之介</u>, 渡邉 陽太郎, 髙﨑 環, 赤間 怜奈, 鈴木 潤"
         publication:
           name: "説得エージェントの拡張戦略設計と意図変化を用いた自動評価手法の提案. 2025年度 人工知能学会全国大会 (第39回), May 2025."
-          url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2Win542/_article/-char/ja"      
+          url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2Win542/_article/-char/ja"
+          # buttonName: "Paper"
 
-      - title: "吉田 倖, 野末 慎之介, 阿部 香央莉, 赤間 怜奈, 鈴木 潤"
+      - title: "吉田 倖, <u>野末 慎之介</u>, 阿部 香央莉, 赤間 怜奈, 鈴木 潤"
         publication:
           name: "旅費制約を考慮したマルチエージェントによる旅行計画生成システムの有効性検証. 2025年度 人工知能学会全国大会 (第39回), May 2025."
           url: "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_4G3GS601/_pdf/-char/ja"
+          # buttonName: "Paper"
 
-      - title: "野末 慎之介, 石月由紀子, 松林 優一郎, 坂口 慶祐"
+      - title: "<u>野末 慎之介</u>, 石月由紀子, 松林 優一郎, 坂口 慶祐"
         publication:
           name: "大規模言語モデルにおける日本語ゼロ照応解析能力の分析. 言語処理学会第30回年次大会 (NLP2024), pp.297-302, March 2024."
           url: "https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/A2-2.pdf"
+          # buttonName: "Paper"
           
-      - title: "中野雄斗*, 野末 慎之介*, 穀田 一真, 有山 知希, 佐藤 魁, 曾根 周作, 亀井 遼平, 謝 素春, 成田 風香, 守屋 彰二, 赤間 怜奈, 松林 優一郎, 坂口 慶祐"
+      - title: "中野雄斗*, <u>野末 慎之介</u>*, 穀田 一真, 有山 知希, 佐藤 魁, 曾根 周作, 亀井 遼平, 謝 素春, 成田 風香, 守屋 彰二, 赤間 怜奈, 松林 優一郎, 坂口 慶祐"
         publication:
           name: "Hagi bot: LLMを用いた対話状態追跡と人間らしい振る舞いで自然な議論を行うマルチモーダル対話システム. 第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023), 2023."
           url: "https://www.jstage.jst.go.jp/article/jsaislud/99/0/99_102/_article/-char/ja/"
+          # buttonName: "Paper"
         content: |-
           - \* 第一著者と第二著者の貢献度は等しい
           - 対話システムライブコンペティション6最優秀賞 (11システム中1位)
+
+  presentations:
+    enable: true
+    title: "Talks, Symposiums"
+    buttonName: "Talk Link"
+    index: false
+    items:
+      - title: "<u>野末 慎之介</u> (東北大), 松林 優一郎 (東北大/理研), 藤井 諒 (フューチャー/東北大), 岸波 洋介 (フューチャー), 森下 睦 (フューチャー/東北大), 坂口 慶祐 (東北大/理研)"
+        presentation:
+          name: "項の復元は必要か？日英機械翻訳における省略された項の扱いの分析. The 1st AAMT Workshop on Translation and Interpreting Research / 第1回AAMT翻訳通訳研究会発表, online, March 2026."
+          url: "https://aamt.info/event/seminar/20260318#:~:text=(12)%E9%A0%85%E3%81%AE%E5%BE%A9%E5%85%83%E3%81%AF%E5%BF%85%E8%A6%81%E3%81%8B%EF%BC%9F%E6%97%A5%E8%8B%B1%E6%A9%9F%E6%A2%B0%E7%BF%BB%E8%A8%B3%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E7%9C%81%E7%95%A5%E3%81%95%E3%82%8C%E3%81%9F%E9%A0%85%E3%81%AE%E6%89%B1%E3%81%84%E3%81%AE%E5%88%86%E6%9E%90%0A%E9%87%8E%E6%9C%AB%20%E6%85%8E%E4%B9%8B%E4%BB%8B%EF%BC%88%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6%EF%BC%89"
+    # items:
+    #   - title: "<u>野末 慎之介</u>, 共著者A, 共著者B"
+    #     presentation:
+      #       name: "発表タイトル. 研究会名, Month 2026."
+    #       url: "https://example.com"
+    #       # buttonName: "Slides"
+    #     content: |-
+    #       - 研究報告会
+    #       - 論文投稿なし
 
   # Educationのformatをpublicationsにする
   education:
@@ -254,7 +275,7 @@ params:
         school:
           name: "Tohoku University"
           url: "https://www.tohoku.ac.jp/japanese/"
-        date: "2020 - 2024"
+        date: "Apr. 2020 - Mar. 2024"
         content: |-
           Jul. 2022 - Mar. 2024
 
@@ -273,11 +294,8 @@ params:
         school:
           name: "Utsunomiya High School."
           url: "https://www.tochigi-edu.ed.jp/utsunomiya/nc3/"
-        date: "2017 - 2020"
-        content: |-
-          - Soccer club
-          - Photo club
-          - Student council
+        date: "Apr. 2017 - Mar. 2020"
+        content:
         # featuredLink:
         #   enable: true
         #   url: "https://example.com"
@@ -287,58 +305,73 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Academic Researcher (Part-time)"
+        company:
+          name: 言語AI研究センター
+          url: "https://langai.tohoku.ac.jp/"
+        date: "Apr. 2026 - Present"
+        content: |-
+            - 対話システム開発
+
       - title: "Research Assistant"
         company:
           name: 言語AI研究センター
           url: "https://langai.tohoku.ac.jp/"
-        date: "2024/6 - Present"
+        date: "Jun. 2024 - Mar. 2026"
         content: |-
             - 高度なAIエージェントの研究開発
 
-      - title: "【2weeks】金融×先端技術コース"
+      - title: "Internship"
         company:
           name: "株式会社日本総合研究所"
           url: "https://jri-career.com/internship/ai.html"
-        date: "2024/9/17 - 30"
+        date: "Sep. 17, 2024 - Sep. 30, 2024"
         content: |-
             - 自然言語処理に関する研究開発
 
-      - title: "Engineer Camp"
+      - title: "Internship"
         company:
           name: "フューチャー株式会社"
           url: "https://note.com/future_event/n/nf586b6248ef9"
-        date: "2024/8/19 - 9/13"
+        date: "Aug. 19, 2024 - Sep. 13, 2024"
         content: |-
             - 自然言語処理に関する研究開発
 
-  # Achievements
+  # Awards
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Awards"
+    buttonName: "Award"
     items:
       - title: |
           東北大学大学院教育学研究科長賞<br>
           Tohoku University Graduate School of Education Dean’s Award
+        date: "Mar. 2026"
         content:
         url: "https://www.sed.tohoku.ac.jp/overview/information/detail---id-3213.html"
+        # buttonName: "Award"
         image: /images/dean_award.jpg
       - title: |
           第264回自然言語処理研究発表会 若手奨励賞<br>
           Young Researcher Encouragement Award at the 264th NLP Research Meeting
-        content: |
-          タイトル：日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響<br>
-          Title: The Effect of Zero Anaphora Resolution Performance of the Large Language Model on Japanese-to-English Translation
+        date: "Jul. 2025"
+        content:
         url: https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young#h.pbq70p6poo1w
+        # buttonName: "Award"
         image: /images/NLken_nozue.jpg
       - title: |
           第99回人工知能学会 言語・音声理解と対話処理研究会 (第14回対話システムシンポジウム) (SLUD2023) 対話システムライブコンペティション6 最優秀賞<br>
           Our Team Won First Prize at the 6th Dialogue System Live Competition
+        date: "Dec. 2023"
         content: 
         url: https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C
+        # buttonName: "Award"
         image: /images/erica.png
       - title: Comming Soon
+        # date: "Month. 2026"
         content: 
       - title: Comming Soon
+        # date: "Month. 2026"
         content: 
         # url: https://example.com
 
@@ -379,7 +412,7 @@ params:
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: 言語処理100本ノック
+      - title: 言語処理100本ノック 2020
         # content: 
         image: /images/100knock_image.png
         featured:
@@ -476,14 +509,13 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/s-nozue
       linkedin: https://www.linkedin.com/in/%E6%85%8E%E4%B9%8B%E4%BB%8B-%E9%87%8E%E6%9C%AB-623a512a3/
       twitter: https://twitter.com/nozoc_tohoku
       # instagram: https://instagram.com
-      facebook: https://www.facebook.com/profile.php?id=100087903578897
 
   # List pages like blogs and posts
   listPages:

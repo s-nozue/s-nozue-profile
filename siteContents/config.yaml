@@ -74,6 +74,9 @@ languages:
             publication:
               name: "Enhancing Persuasive Dialogue Agents by Synthesizing Cross-Disciplinary Communication Strategies. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025): Industry Track, pages 2287-2312, November 2025."
               url: "https://aclanthology.org/2025.emnlp-industry.158/"
+              links:
+                - name: "arXiv"
+                  url: "https://arxiv.org/abs/2602.22696"
             content: |-
               * Equal contribution
           - title: "<u>Shinnosuke Nozue</u>, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"
@@ -334,6 +337,9 @@ languages:
             publication:
               name: "Enhancing Persuasive Dialogue Agents by Synthesizing Cross-Disciplinary Communication Strategies. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025): Industry Track, pages 2287-2312, November 2025."
               url: "https://aclanthology.org/2025.emnlp-industry.158/"
+              links:
+                - name: "arXiv"
+                  url: "https://arxiv.org/abs/2602.22696"
             content: |-
               * Equal contribution
           - title: "<u>Shinnosuke Nozue</u>, Yuto Nakano, Shoji Moriya, Tomoki Ariyama, Kazuma Kokuta, Suchun Xie, Kai Sato, Shusaku Sone, Ryohei Kamei, Reina Akama, Yuichiroh Matsubayashi and Keisuke Sakaguchi"

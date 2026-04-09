@@ -12,8 +12,15 @@
             {{ if .content }}
             <div class="profile-item-content">{{ .content | markdownify }}</div>
             {{ end }}
-            {{ if .publication.url }}
-            <p class="profile-item-extra"><a class="profile-link-button" href="{{ .publication.url }}" target="_blank">{{ .publication.buttonName | default $section.buttonName | default "Paper Link" }}</a></p>
+            {{ if or .publication.url .publication.links }}
+            <p class="profile-item-extra">
+                {{ if .publication.url }}
+                <a class="profile-link-button" href="{{ .publication.url }}" target="_blank" rel="noopener noreferrer">{{ .publication.buttonName | default $section.buttonName | default "Paper Link" }}</a>
+                {{ end }}
+                {{ range .publication.links }}
+                <a class="profile-link-button" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name | default "Link" }}</a>
+                {{ end }}
+            </p>
             {{ end }}
         </li>
         {{ end }}

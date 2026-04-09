@@ -15,7 +15,9 @@
 {{- partial "sections/hero/index.html" . -}}
 {{- partial "sections/about.html" . -}}
 {{- partial "sections/publications_overview.html" . -}}
+{{ if not (.Site.Params.publicationsOverview.includePresentations | default false) }}
 {{- partial "sections/presentations.html" . -}}
+{{ end }}
 {{- partial "sections/achievements.html" . -}}
 {{- partial "sections/education.html" . -}}
 {{- partial "sections/experience.html" . -}}

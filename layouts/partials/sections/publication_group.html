@@ -1,0 +1,22 @@
+{{ $section := .section }}
+{{ if $section.enable | default false }}
+<section id="{{ .id }}" class="profile-subsection">
+    <h3 class="profile-subsection-title">{{ $section.title }}</h3>
+    <ul class="profile-list">
+        {{ range $section.items }}
+        <li class="profile-item">
+            <h3 class="profile-item-title">{{ .title | safeHTML }}</h3>
+            {{ if .publication.name }}
+            <p class="profile-item-org">{{ .publication.name }}</p>
+            {{ end }}
+            {{ if .content }}
+            <div class="profile-item-content">{{ .content | markdownify }}</div>
+            {{ end }}
+            {{ if .publication.url }}
+            <p class="profile-item-extra"><a class="profile-link-button" href="{{ .publication.url }}" target="_blank">{{ .publication.buttonName | default $section.buttonName | default "Paper Link" }}</a></p>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}

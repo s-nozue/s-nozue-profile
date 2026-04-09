@@ -3,7 +3,7 @@
     <div class="container profile-container">
         <div class="profile-hero-inner" id="primary-font">
             <p class="profile-kicker">{{ .Site.Params.hero.intro }}</p>
-            <h1 class="profile-name">{{ .Site.Params.hero.title }}</h1>
+            <h1 class="profile-name">{{ .Site.Params.hero.title | markdownify }}</h1>
             <p class="profile-role">{{ .Site.Params.hero.subtitle }}</p>
             <div class="profile-summary">{{ .Site.Params.hero.content | markdownify }}</div>
 

@@ -50,7 +50,8 @@
     <nav class="pt-3 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }}">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             <!-- navbar brand -->
-            <a class="navbar-brand primary-font text-wrap" href="{{ .Site.BaseURL | relURL }}">
+            {{ $homeURL := .Site.Home.RelPermalink }}
+            <a class="navbar-brand primary-font text-wrap" href="{{ $homeURL }}">
                 {{ if and (or (.Site.Params.favicon) (.Site.Params.navbar.brandLogo)) .Site.Params.navbar.showBrandLogo | default true }}
                 <img src="{{ .Site.Params.navbar.brandLogo | default .Site.Params.favicon }}" width="30" height="30"
                     class="d-inline-block align-top">
@@ -88,24 +89,25 @@
 
                     {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">
+                        <a class="nav-link" href="{{ $homeURL }}#about" aria-label="about">
                             {{ .Site.Params.about.title | default "About" }}
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (or (.Site.Params.inter_publications.enable | default false) (.Site.Params.publications.enable | default false)) (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
+                    {{ $showPublications := or (.Site.Params.journal_publications.enable | default false) (.Site.Params.international_conferences.enable | default false) (.Site.Params.domestic_conferences.enable | default false) (and (.Site.Params.publicationsOverview.includePresentations | default false) (.Site.Params.presentations.enable | default false)) }}
+                    {{ if and $showPublications (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#publications"
+                        <a class="nav-link" href="{{ $homeURL }}#publications"
                             aria-label="publications">
                             {{ .Site.Params.publicationsOverview.title | default "Publications" }}
                         </a>
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.presentations.enable | default false) (not (.Site.Params.navbar.menus.disablePresentations | default false)) }}
+                    {{ if and (.Site.Params.presentations.enable | default false) (not (.Site.Params.publicationsOverview.includePresentations | default false)) (not (.Site.Params.navbar.menus.disablePresentations | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#presentations"
+                        <a class="nav-link" href="{{ $homeURL }}#presentations"
                             aria-label="presentations">
                             {{ .Site.Params.presentations.title | default "Talks" }}
                         </a>
@@ -114,7 +116,7 @@
 
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
+                        <a class="nav-link" href="{{ $homeURL }}#achievements"
                             aria-label="achievements">
                             {{ .Site.Params.achievements.title | default "Awards" }}
                         </a>
@@ -123,7 +125,7 @@
 
                     {{ if and (.Site.Params.education.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#education"
+                        <a class="nav-link" href="{{ $homeURL }}#education"
                             aria-label="education">
                             {{ .Site.Params.education.title | default "Education" }}
                         </a>
@@ -132,7 +134,7 @@
 
                     {{ if and (.Site.Params.experience.enable | default false) (not (.Site.Params.navbar.menus.disableExperience | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#experience"
+                        <a class="nav-link" href="{{ $homeURL }}#experience"
                             aria-label="experience">
                             {{ .Site.Params.experience.title | default "Experience" }}
                         </a>
@@ -141,7 +143,7 @@
 
                     {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"
+                        <a class="nav-link" href="{{ $homeURL }}#projects"
                             aria-label="projects">
                             {{ .Site.Params.projects.title | default "Projects" }}
                         </a>
@@ -150,10 +152,24 @@
 
                     {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#contact"
+                        <a class="nav-link" href="{{ $homeURL }}#contact"
                             aria-label="contact">
                             {{ .Site.Params.contact.title | default "Contact" }}
                         </a>
+                    </li>
+                    {{ end }}
+
+                    {{ if gt (len .Site.Home.AllTranslations) 1 }}
+                    <li class="nav-item navbar-text">
+                        <div class="nav-link d-flex gap-2 justify-content-center">
+                            {{ range .Site.Home.AllTranslations }}
+                            {{ if eq .Language.Lang $.Site.Language.Lang }}
+                            <span aria-current="page"><strong>{{ .Language.LanguageName }}</strong></span>
+                            {{ else }}
+                            <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
                     </li>
                     {{ end }}
 

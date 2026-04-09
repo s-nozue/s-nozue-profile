@@ -39,6 +39,14 @@
     color: var(--primary-color) !important;
 }
 
+.profile-name p {
+    margin: 0;
+}
+
+.profile-name-small {
+    font-size: 0.46em;
+}
+
 .profile-role {
     margin: 0;
     font-size: 1.05rem;
@@ -234,7 +242,8 @@
 }
 
 #inter_publications .profile-item-title,
-#publications .profile-item-title {
+#publications .profile-item-title,
+#presentations .profile-item-title {
     font-size: 0.95rem;
     font-weight: 500;
     line-height: 1.55;

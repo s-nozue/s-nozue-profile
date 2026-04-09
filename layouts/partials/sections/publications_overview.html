@@ -1,9 +1,15 @@
-{{ if or (.Site.Params.inter_publications.enable | default false) (.Site.Params.publications.enable | default false) }}
+{{ $hasPublications := or (.Site.Params.journal_publications.enable | default false) (.Site.Params.international_conferences.enable | default false) (.Site.Params.domestic_conferences.enable | default false) }}
+{{ $hasPresentationsInside := and (.Site.Params.publicationsOverview.includePresentations | default false) (.Site.Params.presentations.enable | default false) }}
+{{ if or $hasPublications $hasPresentationsInside }}
 <section id="publications" class="profile-section">
     <div class="container profile-container">
         <h2 class="profile-section-title">{{ .Site.Params.publicationsOverview.title | default "Publications" }}</h2>
-        {{- partial "sections/international_publications.html" . -}}
-        {{- partial "sections/publications.html" . -}}
+        {{- partial "sections/publication_group.html" (dict "id" "journal_publications" "section" .Site.Params.journal_publications) -}}
+        {{- partial "sections/publication_group.html" (dict "id" "international_conferences" "section" .Site.Params.international_conferences) -}}
+        {{- partial "sections/publication_group.html" (dict "id" "domestic_conferences" "section" .Site.Params.domestic_conferences) -}}
+        {{ if $hasPresentationsInside }}
+        {{- partial "sections/presentations_subsection.html" . -}}
+        {{ end }}
     </div>
 </section>
 {{ end }}

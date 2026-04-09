@@ -14,7 +14,7 @@ languages:
       title: "野末慎之介プロフィール"
       description: "野末慎之介のプロフィールページ"
       navbar:
-        brandName: "野末慎之介プロフィール"
+        brandName: "S-Nozue Profile"
         searchPlaceholder: "Ctrl + k で検索..."
       hero:
         enable: true

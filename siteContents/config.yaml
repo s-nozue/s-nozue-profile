@@ -200,23 +200,28 @@ languages:
         title: "受賞"
         buttonName: "詳細"
         items:
+          - title: "第1回AAMT翻訳通訳研究会 優秀賞"
+            date: "2026年4月"
+            content: "1/8 = 12.5%"
+            url: "https://aamt.info/event/seminar/20260318"
+            # image: /images/dean_award.jpg
           - title: "東北大学大学院教育学研究科長賞"
             date: "2026年3月"
             content: "1/45 = 2.2%"
             url: "https://www.sed.tohoku.ac.jp/overview/information/detail---id-3213.html"
-            image: /images/dean_award.jpg
+            # image: /images/dean_award.jpg
           - title: "第264回自然言語処理研究発表会 若手奨励賞"
             date: "2025年7月"
             content: "3/12 = 30%"
             url: "https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young#h.pbq70p6poo1w"
-            image: /images/NLken_nozue.jpg
+            # image: /images/NLken_nozue.jpg
           - title: "SLUD2023 対話システムライブコンペティション6 最優秀賞"
             date: "2023年12月"
             content: "11システム中1位"
             url: "https://sites.google.com/view/dslc6/%E7%B5%90%E6%9E%9C"
-            image: /images/erica.png
-          - title: "Comming Soon"
-          - title: "Comming Soon"
+            # image: /images/erica.png
+          # - title: "Comming Soon"
+          # - title: "Comming Soon"
       projects:
         enable: true
         title: "プロジェクト"

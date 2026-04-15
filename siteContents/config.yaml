@@ -259,7 +259,7 @@ languages:
         enable: true
         title: "お問い合わせ"
         content: "質問でもご連絡でも歓迎です。できるだけ早くお返事します。"
-        email: nozue.shinnosuke.q5@dc.tohoku.ac.jp
+        email: shinnosuke.nozue.b3@tohoku.ac.jp
         btnName: "メールを送る"
       footer:
         recentPosts:
@@ -479,7 +479,7 @@ languages:
         enable: true
         title: "Contact"
         content: "My inbox is always open. Whether you have a question or just want to say hello, I'll do my best to get back to you."
-        email: nozue.shinnosuke.q5@dc.tohoku.ac.jp
+        email: shinnosuke.nozue.b3@tohoku.ac.jp
         btnName: "Mail me"
       footer:
         recentPosts:

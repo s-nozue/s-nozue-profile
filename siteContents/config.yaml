@@ -39,7 +39,7 @@ languages:
         image: "/images/about_photo.JPG"
         content: |-
           こんにちは。東北大学言語AI研究センターに学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[Failab.](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
-          現在は、対話システムと大規模言語モデルにおける日本語能力の分析に取り組んでいます。
+          現在は、対話システムと大規模言語モデルにおける日本語能力の分析に取り組んでいます。栃木県出身。
         interests:
           enable: true
           title: "興味あるテーマ"
@@ -159,11 +159,6 @@ languages:
 
               - 教育学
                 - 教育情報学、教育行政学、教育心理学、教育哲学、比較教育学
-          - title: "高校"
-            school:
-              name: "栃木県立宇都宮高等学校"
-              url: "https://www.tochigi-edu.ed.jp/utsunomiya/nc3/"
-            date: "2017年4月 - 2020年3月"
       experience:
         enable: true
         title: "経歴"
@@ -394,11 +389,6 @@ languages:
 
               - Education
                 - Educational informatics, educational administration, educational psychology, philosophy of education, and comparative education
-          - title: "High School"
-            school:
-              name: "Utsunomiya High School"
-              url: "https://www.tochigi-edu.ed.jp/utsunomiya/nc3/"
-            date: "Apr. 2017 - Mar. 2020"
       experience:
         enable: true
         title: "Experience"

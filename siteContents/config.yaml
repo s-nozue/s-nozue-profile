@@ -224,42 +224,42 @@ languages:
             # image: /images/erica.png
           # - title: "Comming Soon"
           # - title: "Comming Soon"
-      projects:
-        enable: true
-        title: "プロジェクト"
-        items:
-          - title: "共同研究"
-            image: /images/kyodo.png
-            featured:
-              name: "Link"
-              link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html
-            badges:
-              - "AI"
-              - "NLP"
-              - "Machine Learning"
-          - title: "Hagi bot"
-            image: /images/erica.png
-            featured:
-              name: "Link"
-              link: https://github.com/cl-tohoku/hagi-bot
-            badges:
-              - "Dialogue System"
-              - "Multimodal"
-              - "Python"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/cl-tohoku/hagi-bot
-          - title: "言語処理100本ノック 2020"
-            image: /images/100knock_image.png
-            featured:
-              name: "Link"
-              link: https://github.com/s-nozue/nlp-100knock
-            badges:
-              - "Python"
-              - "Machine Learning"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/s-nozue/nlp-100knock
+      # projects:
+      #   enable: true
+      #   title: "プロジェクト"
+      #   items:
+      #     - title: "共同研究"
+      #       image: /images/kyodo.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html
+      #       badges:
+      #         - "AI"
+      #         - "NLP"
+      #         - "Machine Learning"
+      #     - title: "Hagi bot"
+      #       image: /images/erica.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://github.com/cl-tohoku/hagi-bot
+      #       badges:
+      #         - "Dialogue System"
+      #         - "Multimodal"
+      #         - "Python"
+      #       links:
+      #         - icon: fab fa-github
+      #           url: https://github.com/cl-tohoku/hagi-bot
+      #     - title: "言語処理100本ノック 2020"
+      #       image: /images/100knock_image.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://github.com/s-nozue/nlp-100knock
+      #       badges:
+      #         - "Python"
+      #         - "Machine Learning"
+      #       links:
+      #         - icon: fab fa-github
+      #           url: https://github.com/s-nozue/nlp-100knock
       contact:
         enable: true
         title: "お問い合わせ"
@@ -464,42 +464,42 @@ languages:
             image: /images/erica.png
           - title: "Comming Soon"
           - title: "Comming Soon"
-      projects:
-        enable: true
-        title: "Projects"
-        items:
-          - title: "Collaborative Research"
-            image: /images/kyodo.png
-            featured:
-              name: "Link"
-              link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html
-            badges:
-              - "AI"
-              - "NLP"
-              - "Machine Learning"
-          - title: "Hagi bot"
-            image: /images/erica.png
-            featured:
-              name: "Link"
-              link: https://github.com/cl-tohoku/hagi-bot
-            badges:
-              - "Dialogue System"
-              - "Multimodal"
-              - "Python"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/cl-tohoku/hagi-bot
-          - title: "NLP 100 Exercises 2020"
-            image: /images/100knock_image.png
-            featured:
-              name: "Link"
-              link: https://github.com/s-nozue/nlp-100knock
-            badges:
-              - "Python"
-              - "Machine Learning"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/s-nozue/nlp-100knock
+      # projects:
+      #   enable: true
+      #   title: "Projects"
+      #   items:
+      #     - title: "Collaborative Research"
+      #       image: /images/kyodo.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://www.tohoku.ac.jp/japanese/2024/07/press20240722-02-ai.html
+      #       badges:
+      #         - "AI"
+      #         - "NLP"
+      #         - "Machine Learning"
+      #     - title: "Hagi bot"
+      #       image: /images/erica.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://github.com/cl-tohoku/hagi-bot
+      #       badges:
+      #         - "Dialogue System"
+      #         - "Multimodal"
+      #         - "Python"
+      #       links:
+      #         - icon: fab fa-github
+      #           url: https://github.com/cl-tohoku/hagi-bot
+      #     - title: "NLP 100 Exercises 2020"
+      #       image: /images/100knock_image.png
+      #       featured:
+      #         name: "Link"
+      #         link: https://github.com/s-nozue/nlp-100knock
+      #       badges:
+      #         - "Python"
+      #         - "Machine Learning"
+      #       links:
+      #         - icon: fab fa-github
+      #           url: https://github.com/s-nozue/nlp-100knock
       contact:
         enable: true
         title: "Contact"

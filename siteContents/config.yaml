@@ -21,7 +21,7 @@ languages:
         intro: "こんにちは、"
         title: "野末 慎之介<span class=\"profile-name-small\">です。</span>"
         subtitle: "プロフィールページ"
-        content: "東北大学 [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（Failab.）で自然言語処理の研究をしています。"
+        content: "東北大学 [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（FaiLab.）で自然言語処理の研究をしています。"
         image: /images/hero_photo.JPG
         bottomImage:
           enable: true
@@ -38,7 +38,7 @@ languages:
         title: "自己紹介"
         image: "/images/about_photo.JPG"
         content: |-
-          こんにちは。東北大学言語AI研究センター（Failab）に学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[Failab.](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
+          こんにちは。東北大学言語AI研究センター（FaiLab）に学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[FaiLab.](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
           現在は、対話システムと大規模言語モデルにおける日本語能力の分析に取り組んでいます。栃木県出身。
         interests:
           enable: true
@@ -166,14 +166,14 @@ languages:
         items:
           - title: "学術研究員（非常勤）"
             company:
-              name: "東北大学言語AI研究センター（Failab）"
+              name: "東北大学言語AI研究センター（FaiLab）"
               url: "https://www.fai.cds.tohoku.ac.jp/"
             date: "2026年4月 - 現在"
             content: |-
               - 対話システム開発
           - title: "リサーチアシスタント"
             company:
-              name: "東北大学言語AI研究センター（Failab）"
+              name: "東北大学言語AI研究センター（FaiLab）"
               url: "https://langai.tohoku.ac.jp/"
             date: "2024年6月 - 2026年3月"
             content: |-
@@ -286,7 +286,7 @@ languages:
         intro: "Hi, my name is"
         title: "Shinnosuke Nozue."
         subtitle: "Profile Page"
-        content: "I am a member of Tohoku NLP Group (Failab.)."
+        content: "I am a member of Tohoku NLP Group (FaiLab.)."
         image: /images/hero_photo.JPG
         bottomImage:
           enable: true
@@ -304,7 +304,7 @@ languages:
         image: "/images/about_photo.JPG"
         content: |-
           Hello. I am an academic researcher at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
-          I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([Failab.](https://www.fai.cds.tohoku.ac.jp/)).
+          I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([FaiLab.](https://www.fai.cds.tohoku.ac.jp/)).
           Currently, my research focuses on dialogue systems and the analysis of Japanese language capabilities in large language models.
         interests:
           enable: true
@@ -396,14 +396,14 @@ languages:
         items:
           - title: "Academic Researcher (Part-time)"
             company:
-              name: "Tohoku University Center for Language AI Research (Failab)"
+              name: "Tohoku University Center for Language AI Research (FaiLab)"
               url: "https://www.fai.cds.tohoku.ac.jp/"
             date: "Apr. 2026 - Present"
             content: |-
               - Dialogue system development
           - title: "Research Assistant"
             company:
-              name: "Tohoku University Center for Language AI Research (Failab)"
+              name: "Tohoku University Center for Language AI Research (FaiLab)"
               url: "https://langai.tohoku.ac.jp/"
             date: "Jun. 2024 - Mar. 2026"
             content: |-

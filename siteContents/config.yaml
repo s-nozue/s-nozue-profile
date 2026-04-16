@@ -21,7 +21,7 @@ languages:
         intro: "こんにちは、"
         title: "野末 慎之介<span class=\"profile-name-small\">です。</span>"
         subtitle: "プロフィールページ"
-        content: "東北大学 [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（FaiLab.）で自然言語処理の研究をしています。"
+        content: "東北大学 [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（FaiLab）で自然言語処理の研究をしています。"
         image: /images/hero_photo.JPG
         bottomImage:
           enable: true
@@ -38,7 +38,7 @@ languages:
         title: "自己紹介"
         image: "/images/about_photo.JPG"
         content: |-
-          こんにちは。東北大学言語AI研究センター（FaiLab）に学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[FaiLab.](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
+          こんにちは。東北大学言語AI研究センター（FaiLab）に学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[FaiLab](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
           現在は、対話システムと大規模言語モデルにおける日本語能力の分析に取り組んでいます。栃木県出身。
         interests:
           enable: true
@@ -286,7 +286,7 @@ languages:
         intro: "Hi, my name is"
         title: "Shinnosuke Nozue."
         subtitle: "Profile Page"
-        content: "I am a member of Tohoku NLP Group (FaiLab.)."
+        content: "I am a member of Tohoku NLP Group (FaiLab)."
         image: /images/hero_photo.JPG
         bottomImage:
           enable: true
@@ -304,7 +304,7 @@ languages:
         image: "/images/about_photo.JPG"
         content: |-
           Hello. I am an academic researcher at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
-          I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([FaiLab.](https://www.fai.cds.tohoku.ac.jp/)).
+          I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([FaiLab](https://www.fai.cds.tohoku.ac.jp/)).
           Currently, my research focuses on dialogue systems and the analysis of Japanese language capabilities in large language models.
         interests:
           enable: true

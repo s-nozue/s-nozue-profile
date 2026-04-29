@@ -66,7 +66,7 @@ languages:
         items: []
       international_conferences:
         enable: true
-        title: "国際会議"
+        title: "国際会議（査読付き）"
         buttonName: "論文"
         index: false
         items:
@@ -331,7 +331,7 @@ languages:
         items: []
       international_conferences:
         enable: true
-        title: "International Conferences"
+        title: "International Conferences (Peer-Reviewed)"
         buttonName: "Paper"
         index: false
         items:

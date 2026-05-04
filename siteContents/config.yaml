@@ -50,7 +50,7 @@ languages:
             - "対話システム"
             - "日本語"
         currentQuestions:
-          enable: false
+          enable: true
           title: "現在の問い"
           items:
             - "人間同士が行うような高度でfull duplexな対話を対話システムで実現する"
@@ -322,7 +322,7 @@ languages:
             - "Dialogue System"
             - "Japanese"
         currentQuestions:
-          enable: false
+          enable: true
           title: "Current Questions"
           items:
             - "Realizing sophisticated, full-duplex dialogue systems that support human-like conversation."

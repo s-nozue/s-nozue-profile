@@ -49,6 +49,12 @@ languages:
             - "談話"
             - "対話システム"
             - "日本語"
+        currentQuestions:
+          enable: false
+          title: "現在の問い"
+          items:
+            - "人間同士が行うような高度でfull duplexな対話を対話システムで実現する"
+            - "大規模言語モデルの日本語述語項構造の理解度、そしてその理解が下流タスクに与える影響を調査する"
         hobbies:
           enable: false
           title: "趣味"
@@ -315,6 +321,12 @@ languages:
             - "Discourse"
             - "Dialogue System"
             - "Japanese"
+        currentQuestions:
+          enable: false
+          title: "Current Questions"
+          items:
+            - "Realizing sophisticated, full-duplex dialogue systems that support human-like conversation."
+            - "Investigating how well large language models understand Japanese predicate-argument structure and how that understanding affects downstream tasks."
         hobbies:
           enable: false
           title: "Hobbies"

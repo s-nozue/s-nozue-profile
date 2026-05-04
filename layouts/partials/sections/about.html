@@ -14,6 +14,15 @@
             </ul>
             {{ end }}
 
+            {{ if .Site.Params.about.currentQuestions.enable }}
+            <h3 class="profile-subtitle">{{ .Site.Params.about.currentQuestions.title }}</h3>
+            <ul class="profile-question-list">
+                {{ range .Site.Params.about.currentQuestions.items }}
+                <li>{{ . | markdownify }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+
             {{ if .Site.Params.about.hobbies.enable }}
             <h3 class="profile-subtitle">{{ .Site.Params.about.hobbies.title }}</h3>
             <ul class="profile-chip-list">

@@ -54,7 +54,7 @@ languages:
           title: "現在の問い"
           items:
             - "人間同士が行うような高度でfull duplexな対話を対話システムで実現する"
-            - "大規模言語モデルの日本語述語項構造の理解度、そしてその理解が下流タスクに与える影響を調査する"
+            - "大規模言語モデルの日本語における項省略の理解度、そしてその理解が下流タスクに与える影響を調査する"
         hobbies:
           enable: false
           title: "趣味"
@@ -325,8 +325,8 @@ languages:
           enable: true
           title: "Current Questions"
           items:
-            - "Realizing sophisticated, full-duplex dialogue systems that support human-like conversation."
-            - "Investigating how well large language models understand Japanese predicate-argument structure and how that understanding affects downstream tasks."
+            - "Realizing advanced, full-duplex dialogue in dialogue systems comparable to human-human conversation."
+            - "Investigating how well large language models understand argument ellipsis in Japanese and how that understanding affects downstream tasks."
         hobbies:
           enable: false
           title: "Hobbies"

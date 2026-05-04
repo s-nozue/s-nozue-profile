@@ -39,7 +39,7 @@ languages:
         image: "/images/about_photo.JPG"
         content: |-
           こんにちは。東北大学言語AI研究センター（FaiLab）に学術研究員として在籍し、[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/)（[FaiLab](https://www.fai.cds.tohoku.ac.jp/)）で自然言語処理を研究しています。
-          現在は、対話システムと大規模言語モデルにおける日本語能力の分析に取り組んでいます。栃木県出身。
+          現在は、対話システムの開発と、大規模言語モデルにおける日本語能力の分析に取り組んでいます。栃木県出身。
         interests:
           enable: true
           title: "興味あるテーマ"
@@ -305,7 +305,7 @@ languages:
         content: |-
           Hello. I am an academic researcher at [Tohoku University](https://www.tohoku.ac.jp/japanese/).
           I research natural language processing at [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/) ([FaiLab](https://www.fai.cds.tohoku.ac.jp/)).
-          Currently, my research focuses on dialogue systems and the analysis of Japanese language capabilities in large language models.
+          Currently, I work on the development of dialogue systems and the analysis of Japanese language capabilities in large language models.
         interests:
           enable: true
           title: "Research Interests"
